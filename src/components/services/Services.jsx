@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import ComputerModelContainer from './Computer/ComputerModelContainer'
 import './services.css'
-import IphoneModelContainer from './iphone/iphoneModelContainer'
+import IphoneModelContainer from './iphone/IphoneModelContainer'
 import Counter from './Counter'
 import { motion, useInView } from 'framer-motion'
 const services = [
