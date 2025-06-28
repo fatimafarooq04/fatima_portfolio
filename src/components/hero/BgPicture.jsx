@@ -13,7 +13,7 @@ const BgPicture = () => {
       <Shape />
 
       <div className="hImg">
-        <img src="public/images/background/fatima2.png" alt="" />
+        <img src="/images/background/fatima2.png" alt="" />
       </div>
     </motion.div>
   )

@@ -36,7 +36,7 @@ const Speech = () => {
       </div>
       <div className="bubbleBg">
 
-      <img src="public/images/background/bg.png" alt="" />
+      <img src="/images/background/bg.png" alt="" />
       </div>
     </motion.div>
   )
