@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(to bottom,#12071f,#2f204e);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 100vw; 
+    padding: 0 ;
+    margin: 0 ;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.hamburger {
+    margin: 20px 0 0 20px;
+    font-size: 45px;
+    cursor: pointer;
+
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.close{
+    font-size: 70px;
+
+}
+.close-flex {
+    display: flex;
+    justify-content: end;
+    margin: 20px 30px 0 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (min-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width:1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    .close-btn{
+        font-size: 40px;
+    }
+}
+@media (min-width:1536px) {
+    .container{
+        max-width:  1536px;
+    }
+    .hamburger{
+        font-size: 40px;
+
+    }
+    .close-btn{
+        font-size: 40px;
+    }
+}

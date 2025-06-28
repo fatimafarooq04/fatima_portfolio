@@ -1,0 +1,95 @@
+.pPortfolio {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+
+}
+
+.pHeading {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 3%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+ul li a {
+  cursor: pointer;
+}
+
+.btn {
+  background: pink;
+  padding: 20px 40px;
+  border-radius: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pMainCard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin: 60px 40px;
+
+}
+
+.pCard {
+  height: 300px;
+  width: 300px;
+  background-color: azure;
+  border-radius: 25px;
+}
+
+.pCard img {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.pContent h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioDetail {
+  margin-top: 50px;
+  width: 80%;
+
+}
+.carousel-media {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
