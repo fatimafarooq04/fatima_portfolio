@@ -233,7 +233,7 @@
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:600px) {
     .hero {
         flex-direction: column;
     }
@@ -246,7 +246,7 @@
     }
 
     .hTitle {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .bg {

@@ -3,7 +3,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, useNavigate } from "react-router-dom";
-// import '../index.css'
 
 export const Sidebar=()=>{
   const [showmenu, setShowMenu] = useState(false);
