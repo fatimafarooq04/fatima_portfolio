@@ -11,21 +11,23 @@ import { PortfolioDetail } from "./components/portfolio/PortfolioDetail";
 // ✅ Home Page (without Sidebar)
 export const HomePage = () => {
   return (
-    
-    <div className="container">
-      <Sidebar/>
-      <section id="home">
-        <Hero />
-      </section>
-      <section id="services">
-        <Services />
-      </section>
-      <section id="portfolio">
-        <Portfolio />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
+    <div className="main">
+
+      <div className="container">
+        <Sidebar />
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="services">
+          <Services />
+        </section>
+        <section id="portfolio">
+          <Portfolio />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
+      </div>
     </div>
   );
 };
