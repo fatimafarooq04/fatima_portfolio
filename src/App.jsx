@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
 import Contact from "./components/contact/Contact"
 import Hero from "./components/hero/Hero"
 import PortfolioPage from "./components/portfolio/PortfolioPage"
-// import Portfolio from "./components/portfolio/Portfolio"
+import Portfolio from "./components/portfolio/Portfolio"
 import Services from "./components/services/Services"
 import { Sidebar } from "./components/Sidebar/Sidebar"
 import { PortfolioDetail } from "./components/portfolio/PortfolioDetail"
@@ -22,13 +22,10 @@ export const HomePage = () => {
           <section id="services">
             <Services />
           </section>
-          {/* <section id="portfolio"> */}
-          {/* <Portfolio />  */}
-          <section className="portfolio">
-
-            {/* <CheckPortfolio /> */}
+          <section id="portfolio">
+          <Portfolio /> 
+         
           </section>
-          {/* </section> */}
           <section id="contact">
             <Contact />
           </section>
